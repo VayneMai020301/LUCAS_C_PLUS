@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+LUCAS/enc_temp_folder/*
+LUCAS/.vs/

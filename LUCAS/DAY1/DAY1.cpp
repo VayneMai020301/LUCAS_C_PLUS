@@ -7,7 +7,7 @@ using namespace std;
 
 int tinh_tong(int a, int b) {
     int s = a + b;
-    return 0;
+    return s;
 }
 
 int* tinh_tong_2(int a, int b) {
@@ -138,6 +138,15 @@ int main()
     * Hàm con trỏ là hàm trả về một con trỏ
     * Con trỏ hàm là con trỏ, trỏ tới một hàm
     */
+    /* Con trỏ hàm */
+    int (*con_tro_ham)(int, int); // Khai báo 1 con trỏ hàm có tên là con_tro_ham, 2 tham số integer truyền vào
+    con_tro_ham = tinh_tong; // con_tro_ham trỏ tới hàm tinh_tong 
+    int t = con_tro_ham(100, 3); // gọi ra con_tro_ham
+
+    /*Hàm con trỏ, Hàm trả về con trỏ*/
+    int* t2 = tinh_tong_2(100, 2);
+    std::cout << "Gia tri cua t2 la " << *t2 << std::endl;
+
     std::cout << "Program paussing ...";
 }
 

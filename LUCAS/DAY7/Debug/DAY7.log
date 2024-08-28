@@ -1,0 +1,4 @@
+﻿  DAY7.cpp
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY7\DAY7.cpp(192,18): warning C4834: discarding return value of function with 'nodiscard' attribute
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY7\DAY7.cpp(193,23): warning C4018: '<': signed/unsigned mismatch
+  DAY7.vcxproj -> F:\Class_C++\LUCAS_C_PLUS\LUCAS\Debug\DAY7.exe

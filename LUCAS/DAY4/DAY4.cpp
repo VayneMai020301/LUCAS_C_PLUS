@@ -125,6 +125,10 @@ int main()
     }
 
     Image* img      = new Image(100, 20);
+
+
+
+
     Image1* img1    = new Image1(100, 20);
     Image3* img3    = new Image3(100, 20);
 

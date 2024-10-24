@@ -1,0 +1,12 @@
+﻿  DAY10.cpp
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY10\Image1.h(12,21): error C2248: 'ImageBase::protect': cannot access private member declared in class 'ImageBase'
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY10\ImageBase.h(27): message : see declaration of 'ImageBase::protect'
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY10\ImageBase.h(5): message : see declaration of 'ImageBase'
+  Image1.cpp
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY10\Image1.h(12,21): error C2248: 'ImageBase::protect': cannot access private member declared in class 'ImageBase'
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY10\ImageBase.h(27): message : see declaration of 'ImageBase::protect'
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY10\ImageBase.h(5): message : see declaration of 'ImageBase'
+  Image3.cpp
+  ImageBase.cpp
+  ImageRGBA.cpp
+  Generating Code...

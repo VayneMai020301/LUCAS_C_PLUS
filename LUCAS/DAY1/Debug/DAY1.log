@@ -1,4 +1,4 @@
 ﻿  DAY1.cpp
-F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY1\DAY1.cpp(103,8): warning C4102: 'std': unreferenced label
-F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY1\DAY1.cpp(16): warning C4172: returning address of local variable or temporary: sum
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY1\DAY1.cpp(100,5): warning C4102: 'std': unreferenced label
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY1\DAY1.cpp(16,1): warning C4172: returning address of local variable or temporary : sum
   DAY1.vcxproj -> F:\Class_C++\LUCAS_C_PLUS\LUCAS\Debug\DAY1.exe

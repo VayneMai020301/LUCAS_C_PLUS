@@ -1,2 +1,82 @@
 ﻿  DAY4.cpp
-  DAY4.vcxproj -> F:\Class_C++\LUCAS_C_PLUS\LUCAS\Debug\DAY4.exe
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(19,35): error C2065: 'Image1': undeclared identifier
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(19,24): error C2923: 'std::unique_ptr': 'Image1' is not a valid template type argument for parameter '_Ty'
+      F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(19,35):
+      see declaration of 'Image1'
+  
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(19,24): error C2976: 'std::unique_ptr': too few template arguments
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(19,24): error C2955: 'std::unique_ptr': use of class template requires template argument list
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,70): error C2065: 'Image1': undeclared identifier
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,59): error C2923: 'std::unique_ptr': 'Image1' is not a valid template type argument for parameter '_Ty'
+      F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,70):
+      see declaration of 'Image1'
+  
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,59): error C2976: 'std::unique_ptr': too few template arguments
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(22,37): error C2065: 'Image1': undeclared identifier
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(22,25): error C2672: 'std::make_unique': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3607,6):
+      could be 'void std::make_unique(_Types ...)'
+          F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(22,37):
+          'std::make_unique': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3601,57):
+      or       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)'
+          F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(22,37):
+          'std::make_unique': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3596,57):
+      or       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types ...)'
+          F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(22,37):
+          'std::make_unique': invalid template argument for '_Ty', type expected
+  
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(23,9): error C2440: 'return': cannot convert from 'std::unique_ptr' to 'std::unique_ptr'
+      F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(23,9):
+      Cannot copy construct class 'std::unique_ptr' due to ambiguous copy constructors or no available copy constructor
+  
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9): error C2678: binary '=': no operator found which takes a left-hand operand of type 'std::function' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1147,15):
+      could be 'std::function<_Fty> &std::function<_Fty>::operator =(std::nullptr_t) noexcept'
+          F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+          'std::function<_Fty> &std::function<_Fty>::operator =(std::nullptr_t) noexcept': cannot convert 'this' pointer from 'std::function' to 'std::function<_Fty> &'
+              F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+              Reason: cannot convert from 'std::function' to 'std::function<_Fty>'
+              F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1126,15):
+      or       'std::function<_Fty> &std::function<_Fty>::operator =(std::function<_Fty> &&) noexcept'
+          F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+          'std::function<_Fty> &std::function<_Fty>::operator =(std::function<_Fty> &&) noexcept': cannot convert 'this' pointer from 'std::function' to 'std::function<_Fty> &'
+              F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+              Reason: cannot convert from 'std::function' to 'std::function<_Fty>'
+              F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1110,15):
+      or       'std::function<_Fty> &std::function<_Fty>::operator =(const std::function<_Fty> &)'
+          F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+          'std::function<_Fty> &std::function<_Fty>::operator =(const std::function<_Fty> &)': cannot convert 'this' pointer from 'std::function' to 'std::function<_Fty> &'
+              F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+              Reason: cannot convert from 'std::function' to 'std::function<_Fty>'
+              F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1153,15):
+      or       'std::function<_Fty> &std::function<_Fty>::operator =(std::reference_wrapper<_Fx>) noexcept'
+          F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+          'std::function<_Fty> &std::function<_Fty>::operator =(std::reference_wrapper<_Fx>) noexcept': could not deduce template argument for 'std::reference_wrapper<_Fx>' from 'Ld::setLambda::<lambda_1>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional(1135,15):
+      or       'std::function<_Fty> &std::function<_Fty>::operator =(_Fx &&)'
+          F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+          'std::function<_Fty> &std::function<_Fty>::operator =(_Fx &&)': could not deduce template argument for '__formal'
+      F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,9):
+      while trying to match the argument list '(std::function, Ld::setLambda::<lambda_1>)'
+  
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(21,32): error C2582: 'operator =' function is unavailable in 'std::function'
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(92,5): error C2065: 'cout': undeclared identifier
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(92,5): error C3861: 'cout': identifier not found
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY4\DAY4.cpp(152,41): error C2064: term does not evaluate to a function taking 2 arguments

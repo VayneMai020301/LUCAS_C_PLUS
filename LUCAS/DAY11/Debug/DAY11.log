@@ -1,6 +1,4 @@
 ﻿  DAY11.cpp
   manage_animal.cpp
   Generating Code...
-  LINK : F:\Class_C++\LUCAS_C_PLUS\LUCAS\Debug\DAY11.exe not found or not built by the last incremental link; performing full link
-manage_animal.obj : error LNK2005: "void __cdecl ShowInfo(void)" (?ShowInfo@@YAXXZ) already defined in DAY11.obj
-F:\Class_C++\LUCAS_C_PLUS\LUCAS\Debug\DAY11.exe : fatal error LNK1169: one or more multiply defined symbols found
+  DAY11.vcxproj -> F:\Class_C++\LUCAS_C_PLUS\LUCAS\Debug\DAY11.exe

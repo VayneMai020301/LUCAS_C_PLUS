@@ -1,2 +1,9 @@
-﻿  DAY9.cpp
+﻿  data_array.cpp
+F:\Class_C++\LUCAS_C_PLUS\LUCAS\DAY9\data_array.cpp(22,24): warning C4018: '<': signed/unsigned mismatch
+  data_queue.cpp
+  data_stack.cpp
+  DAY9.cpp
+  Image.cpp
+  ImageBase.cpp
+  Generating Code...
   DAY9.vcxproj -> F:\Class_C++\LUCAS_C_PLUS\LUCAS\Debug\DAY9.exe
